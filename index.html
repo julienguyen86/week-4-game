@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Crystal Collector!</title>
+  
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+ 
+   <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- CSS -->
+   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+      <div class="header">
+      <h1>Crystals Collector!</h1>
+  </div>
+          <div class="container">
+          <div class="jumbotron">
+                    <h4><small>You will be given a random number at the start of the game.</small></h4>
+                    <h4><small>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</small></h4>
+                    <h4><small>You win the game by matching your total score to random number. You lose the game if your total score goes above the random number.</small></h4>
+                    <h4><small>The value of each crystal is hidden from you until you click on it.</small></h4>
+                    <h4><small>Each time when the game starts, the game will change the values of each crystal.</small></h4>
+            </div>
+          </div>
+   
+          
+  <!-- section -->
+  <div class="wrap">
+      <div class="container">
+        <section class="row">
+          <div class="col-md-8">
+              <article class="scores">
+            <h2>Number to Guess: <span id="number-to-guess"></span></h2>
+            <div id="crystals">
+            </article>
+              </div>
+     <div class="col-md-4">
+                <div class="points">
+                <h2>Wins:
+          <span id= "numberWins"></span>
+            </br>
+             Losses: 
+          <span id= "numberLosses"></span>
+              </h2>
+          <h2>Your total score is:
+       <span id="finalTotal"></span>
+    </h2>
+          </section>
+
+                </div>
+              </div>
+            
+  
+  
+
+  <!-- JAVASCRIPT  -->
+  <!-- ========================================= -->
+  
+<script src="assets/game.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+body {
+	background: url("../images/background.png");
+}
+.crystal-image{
+      width: 175px;
+      height: 175px;
+      padding: 10px;
+    }
+h1 {
+ 	background-color: orange;
+ 	color:#ffffff;
+ 	padding: 30px;
+ 	margin-left: 150px;
+ 	margin-right: 900px;
+ }
+
+ h2 {
+ 	padding: 50px;
+ 	background-color: #ffffff;
+ }
