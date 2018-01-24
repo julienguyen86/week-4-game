@@ -1,20 +1,19 @@
 body {
-	background: url("../images/background.png");
+	background: url("../images/background.png")
 }
-.crystal-image{
-      width: 175px;
-      height: 175px;
-      padding: 10px;
-    }
-h1 {
- 	background-color: orange;
- 	color:#ffffff;
- 	padding: 30px;
- 	margin-left: 150px;
- 	margin-right: 900px;
- }
 
- h2 {
- 	padding: 50px;
- 	background-color: #ffffff;
- }
+.row {
+	margin-bottom: 10px;
+}
+
+.randomNumberDiv {
+	background-color: lightgreen;
+}
+
+.winsLossesDiv {
+	background-color: lightblue;
+}
+
+.scoreDiv {
+	background-color: pink;
+}
